@@ -1,60 +1,60 @@
 {
   "tcp_alloc": {
     "allowed": 6,
-    "claimed": 1,
-    "desired": 1
+    "claimed": 0,
+    "desired": 0
   },
   "tunnels": [
     {
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "also-weekend.gl.joinmc.link",
-          "assigned_srv": "also-weekend.gl.joinmc.link",
+          "assigned_domain": "areas-cheat.gl.at.ply.gg",
+          "assigned_srv": null,
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "0e2e57d5-08d3-4d35-8d0a-cea12b8ca28c",
+          "id": "de106c5d-f375-4094-b43f-4d5364d28287",
           "ip_hostname": "17.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 62213,
-          "port_start": 62212,
+          "port_end": 2229,
+          "port_start": 2228,
           "region": "global",
           "static_ip4": "147.185.221.17",
           "tunnel_ip": "2602:fbaf:0:1::11"
         },
         "status": "allocated"
       },
-      "created_at": "2024-10-17T21:16:58.995516Z",
+      "created_at": "2024-11-03T23:56:39.626531Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "0a152e7b-213d-4f3a-8af2-d5e611d0bdbf",
-      "name": "Minecraft Java",
+      "id": "5d56069e-525b-430b-b861-c7f8866b048a",
+      "name": "unnamed",
       "origin": {
         "data": {
-          "agent_id": "e5e062f8-d369-4f06-9dda-4d491b69394a",
-          "agent_name": "from-key-ff4e",
+          "agent_id": "4ce232ad-6fd1-4352-8581-287beecbe2df",
+          "agent_name": "from-key-4ace",
           "local_ip": "127.0.0.1",
-          "local_port": 25565
+          "local_port": 2228
         },
         "type": "agent"
       },
       "port_count": 1,
-      "port_type": "tcp",
+      "port_type": "udp",
       "proxy_protocol": null,
       "ratelimit": {
         "bytes_per_second": null,
         "packets_per_second": null
       },
       "region": "global",
-      "tunnel_type": "minecraft-java"
+      "tunnel_type": null
     }
   ],
   "udp_alloc": {
     "allowed": 6,
-    "claimed": 0,
-    "desired": 0
+    "claimed": 1,
+    "desired": 1
   }
 }
